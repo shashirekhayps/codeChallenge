@@ -1,0 +1,7 @@
+<div>
+  <% @recipes.each do |recipe| %>
+      <img src="<%= recipe.image_url(width: 300) %>" />
+      <legend><%= recipe.title %></legend>
+    </a>
+  <% end %>
+</div>
